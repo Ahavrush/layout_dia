@@ -7,13 +7,328 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Dia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+                  crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="src/styles/main.scss"
     />
   </head>
   <body>
-    <h1>Dia</h1>
+    <header id="about" class="header">
+      <div class="header__top">
+
+        <a href="#" class="logo">
+          <img
+            src="src/images/air logo.svg"
+            alt="logo"
+            class="logo__image"
+          >
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#about" class="nav__link">About us</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contact" class="header__hire nav__link">Hire us</a>
+
+      </div>
+      <section class="hero">
+        <div class="hero__strategic">
+          <h1 class="hero__title">Strategic <br>
+          Agency
+          </h1>
+          <p class="hero__text">
+            We believe in the power of bold ideas that
+            can solve business challenges.
+          </p>
+          <button class="hero__button">Learn more</button>
+        </div>
+        <div class="hero__menu">
+          <img src="src/images/Photo watch.svg" alt="photo"
+         class="hero__photo">
+
+          <div class="photo__menu">
+            <img
+             src="src/images/arrow left.svg"
+             alt="arrow-left"
+             class="arrow__left"
+          >
+            <img
+            src="src/images/arrow right.svg"
+            alt="arrow-right"
+           class="arrow__right"
+             >
+            <div class="intro__menu">
+              <span class="photo__title">INTRO</span>
+              <p class="photo__text">By the same illusion which lifts the <br>
+              horizon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <section class="who__section">
+        <h2 class="who__title">
+        Who we are
+        </h2>
+        <p class="who__text">
+           We embrace a strategic approach to creative ideas. We are<br>
+           interested in people and human relationships. This is the main<br>
+         thing you need to know about us. We believe in the power of<br>
+            bold ideas that can solve business challenges.<br>
+        </p>
+      </section>
+      <section class="experties__section">
+        <h2 class="experties__title">
+          Our expertise
+        </h2>
+        <div class="experties__menu">
+          <div class="expertise-card">
+            <img src="src/images/Photo branding.svg" alt="branding"
+            class="expertise-card__photo">
+            <span class="expertise-card__title">Branding</span>
+            <p class="expertise-card__text">
+              We create additional value for <br>
+              companies, products, services as well as<br>
+               verbal and visual ways to deliver it to <br>
+               the audience.<br>
+            </p>
+          </div>
+          <div class="expertise-card">
+            <img src="src/images/Photo communication.svg" alt="communication"
+            class="expertise-card__photo">
+            <span class="expertise-card__title">Communication</span>
+            <p class="expertise-card__text">
+              We strive to create communications that <br>
+              can increase media performance. We<br>
+              use everything — words, meanings,<br>
+              stories, art, movies.<br>
+            </p>
+          </div>
+          <div class="expertise-card">
+            <img src="src/images/Photo strategy.svg" alt="strategy"
+            class="expertise-card__photo">
+            <span class="expertise-card__title">Strategy</span>
+            <p class="expertise-card__text">
+              We create business growth strategies,<br>
+              from the moment of its birth to the<br>
+               achievement of the necessary<br>
+               indicators.<br>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="service__section">
+        <div  class="creative">
+          <p class="service__text">service</p>
+          <h2 class="creative__title">
+            Air is a full service <br>
+            creative agency
+          </h2>
+          <p class="creative__text">
+          Deep analytics, strong strategy and bright creative<br>
+          ideas.
+
+            <br>We are sure that first-rate job is possible only if all<br>
+            three components are united.<br>
+          </p>
+        </div>
+        <div class="service__menu">
+          <div class="brand">
+            <div class="section__number">
+              <p class="number">001</p>
+            </div>
+            <p class="brand__text">Brand Development<br>
+               Copywriting<br>
+               Logo & Webite Design<br>
+                 Packaging<br>
+            </p>
+            <div class="brand__learn">
+              <img src="src/images/Arrow blue.svg" alt="brand__arrow"
+            class="brand__arrow">
+              <a href="#" class="brand__link">Learn more</a>
+            </div>
+          </div>
+          <div id="services" class="contact">
+            <div class="section__number">
+              <p class="number">002</p>
+            </div>
+            <p class="contact__text">Content Production<br>
+                 Graphic Design<br>
+                 Video Production<br>
+                 Post Production<br>
+            </p>
+            <div class="contact__learn">
+              <img src="src/images/Arrow blue.svg" alt="contacts__arrow"
+            class="contact__arrow">
+              <a href="#" class="contact__link">Learn more</a>
+            </div>
+          </div>
+          <div  class="margeting">
+            <div class="section__number">
+              <p class="number">003</p>
+            </div>
+            <p class="margeting__text">Marketing Strategy<br>
+                Email Marketing<br>
+                Paid Advertising<br>
+                Blog Content & SEO<br>
+            </p>
+            <div class="margeting__learn">
+              <img src="src/images/Arrow blue.svg" alt="margeting__arrow"
+            class="margeting__arrow">
+              <a href="#" class="margeting__link">Learn more</a>
+            </div>
+          </div>
+          <div class="digital">
+            <div class="section__number">
+              <p class="number">004</p>
+            </div>
+            <p class="digital__text">Digital Communications<br>
+                Influencer Marketing<br>
+                Product Placements<br>
+                Strategic Partnerships<br>
+            </p>
+            <div class="digital__learn">
+              <img src="src/images/Arrow blue.svg" alt="digital__arrow"
+            class="digital__arrow">
+              <a href="#" class="digital__link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="testimonials">
+
+        <div class="testimonials__header">
+          <p class="testimonials__label">TESTIMONIALS</p>
+          <h2 class="testimonials__title">
+            What<br>
+            people say
+          </h2>
+        </div>
+        <div class="testimonial__menu">
+          <div class="testimonial">
+            <img src="src/images/photo colum 1.svg" alt="photo colum"
+              class="testimonial__photo">
+            <img src="src/images/Group 19.svg" alt="group"
+              class="testimonial__quote">
+            <p class="testimonial__text">
+              AIR's ideas are refreshing and out of<br>
+              the box. Authentic team that focuses<br>
+              on the important path of the brand.
+            </p>
+            <span class="testimonial__name">Tal Gilad</span>
+            <p class="testimonial__company">Teach for America</p>
+          </div>
+          <div class="testimonial">
+            <img src="src/images/photo colum 2.svg" alt="photo colum"
+              class="testimonial__photo">
+            <img src="src/images/Group 19.svg" alt="group"
+              class="testimonial__quote">
+            <p class="testimonial__text">
+              AIR is an exceptional agency that leads<br>
+              with  creative talent, first-class account <br>
+              servicing.
+            </p>
+            <span class="testimonial__name">Azadeh Hawkins</span>
+            <p class="testimonial__company">Hawkins Consulting</p>
+          </div>
+          <div class="testimonial">
+            <img src="src/images/photo colum 3.svg" alt="photo colum"
+              class="testimonial__photo">
+            <img src="src/images/Group 19.svg" alt="group"
+              class="testimonial__quote">
+            <p class="testimonial__text">
+              AIR raises the agency bar to<br>
+              stratospheric heights on both <br>
+              output and client service.
+            </p>
+            <span class="testimonial__name">Michel Grover</span>
+            <p class="testimonial__company">Hulu</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="vision">
+        <div class="passion">
+          <h3 class="passion__title">
+          Vision, Passion, Results
+          </h3>
+          <p class="passion__text">
+         We are sure that first-rate job is possible only if all three<br>
+         components are united.
+          </p>
+          <button class="passion__button">Apply</button>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact"  class="footer">
+      <div class="contacts">
+        <div class="send__container">
+          <form class="send">
+            <span class="send__title">Send us  a message</span>
+            <input type="email" name="email"
+             placeholder="john@example.com" class="send__email">
+            <input type="text" name="name"
+              placeholder="John Doe" class="send__name">
+            <textarea name="massage" placeholder="Write your message here..."
+            class="send__massage"></textarea>
+            <div class="btn">
+              <button class="send__button">send</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="massage">
+          <span class="massage__title">Contact us <br></span>
+          <span class="massage__call">
+            Call us
+          </span>
+          <a href="tel:+654 321 987" class="massage__link">
+            654 321 987
+          </a>
+          <span class="massage__visit">Visit us</span>
+          <a href="#" class="massage__address">2905 West Drive, Buffalo Grove</a>
+          <span class="massage__our">our socials</span>
+          <div class="social">
+            <img src="src/images/facebook 1.svg" alt="facebook"
+              class="social__photo">
+            <img src="src/images/twitter 1.svg" alt="twiter"
+               class="social__photo">
+            <img src="src/images/Vector.svg" alt="instagram"
+              class="social__photo">
+          </div>
+        </div>
+      </div>
+      <div class="footer__header">
+        <div class="header__list-footer">
+          <a href="#" class="logo">
+            <img
+            src="src/images/air logo.svg"
+            alt="logo"
+            class="logo__image"
+          >
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#about" class="nav__link">About us</a></li>
+              <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+              <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
+              <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
     <script src="src/scripts/main.js"></script>
   </body>
 </html>
