@@ -237,15 +237,14 @@
   &__email,
   &__massage,
   &__name {
+    resize: none;
+
     padding-top: 48px;
     padding-bottom: 16px;
     border: none; // Прибираємо стандартні рамки з усіх боків
     border-bottom: 1px #fff solid;
 
     background-color: transparent; // Повністю прозорий фон
-
-    resize: none;
-
      outline: none;
 
     transition: border-color 0.3s ease;
@@ -262,8 +261,9 @@
   &:-webkit-autofill:hover,
   &:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 1000px #2c2c2c inset !important;
-    -webkit-text-fill-color: #fff !important;
     transition: background-color 5000s ease-in-out 0s;
+
+    -webkit-text-fill-color: #fff !important;
   }
   }
 
