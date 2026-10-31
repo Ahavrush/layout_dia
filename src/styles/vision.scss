@@ -8,7 +8,7 @@
   background: url(/src/images/Shapes.png);
   background-color: #fff;
 
-    @include on($bp-tablet) {
+  @include on($bp-tablet) {
     min-height: auto;
     padding-block: 80px;
   }
@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
 
- max-width: 832px;
+  max-width: 832px;
   &__title {
     margin: 0;
 
@@ -30,7 +30,7 @@
     color: #253757;
     text-align: center;
 
-        @include on($bp-small-desktop) {
+    @include on($bp-small-desktop) {
       font-size: 40px;
     }
 
@@ -41,31 +41,28 @@
     @include on($bp-mobile) {
       font-size: 28px;
     }
-
   }
 
   &__text {
     margin: 0;
     padding-block: 24px 64px;
 
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: #6c788b;
     text-align: center;
 
-
     @include on($bp-tablet) {
-    padding-bottom: 40px;
-    font-size: 18px;
+      padding-bottom: 40px;
+      font-size: 18px;
     }
-
   }
 
   &__button {
     cursor: pointer;
 
- width: 100%;
+    width: 100%;
     max-width: 264px;
     height: 56px;
     border: none;
@@ -81,15 +78,11 @@
     transition: box-shadow 0.3s ease-in-out;
   }
 
+  &:hover button {
+    box-shadow: 0 0 10px rgba(6, 4, 4, 0.8);
+  }
 
-&:hover button{
-  box-shadow: 0 0 10px rgba(6, 4, 4, 0.8);
-}
-
-&:active button{
-box-shadow: 0 0 20px rgb(0, 1, 1);
-}
-
-
-
+  &:active button {
+    box-shadow: 0 0 20px rgb(0, 1, 1);
+  }
 }

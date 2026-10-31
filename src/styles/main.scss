@@ -2,21 +2,23 @@
 @import 'fonts';
 @import 'typography';
 @import './header';
-@import'./who';
+@import './who';
 @import './experties';
-@import'./service';
-@import'./testimonial';
-@import'./vision';
-@import'./footer';
+@import './service';
+@import './testimonial';
+@import './vision';
+@import './footer';
 
-
-*, *::before, *::after { box-sizing: border-box; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 $bp-desktop: 1280px;
 $bp-small-desktop: 1024px;
 $bp-tablet: 640px;
 $bp-mobile: 320px;
-
 
 :root {
   --font-family: 'Poppins', sans-serif;
@@ -35,11 +37,10 @@ $bp-mobile: 320px;
   }
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
-   box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   background: $c-gray;
 }
-
-
