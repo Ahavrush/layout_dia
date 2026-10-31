@@ -307,13 +307,15 @@
           <form class="send">
             <span class="send__title">Send us  a message</span>
             <input type="email" name="email"
-             placeholder="john@example.com" class="send__email">
+             required placeholder="john@example.com"
+             class="send__email">
             <input type="text" name="name"
-              placeholder="John Doe" class="send__name">
+               required placeholder="John Doe"
+                class="send__name">
             <textarea name="massage" placeholder="Write your message here..."
-            class="send__massage"></textarea>
+             required class="send__massage"></textarea>
             <div class="btn">
-              <button class="send__button">send</button>
+              <button type="submit" class="send__button">send</button>
             </div>
           </form>
         </div>

@@ -243,7 +243,10 @@
     border-bottom: 1px #fff solid;
 
     background-color: transparent; // Повністю прозорий фон
-    outline: none;
+
+    resize: none;
+
+     outline: none;
 
     transition: border-color 0.3s ease;
     &::placeholder {
@@ -253,6 +256,15 @@
     &:hover {
       border-bottom-color: #2060f6;
     }
+
+
+    &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #2c2c2c inset !important;
+    -webkit-text-fill-color: #fff !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
   }
 
   &__button {
@@ -271,14 +283,15 @@
     background-color: #144ed4;
 
     transition: box-shadow 0.3s ease-in-out;
-  }
 
-  &:hover button {
+
+  &:hover  {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
 
-  &:active button {
+  &:active  {
     box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
   }
 }
 
